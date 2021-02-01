@@ -251,7 +251,7 @@ img{
     text-align: center;
     font-weight: var(--font-semi);
     padding: 2rem 0;
-  
+
   }
   .footer__title{
     font-size: 2rem;
@@ -263,9 +263,22 @@ img{
   .footer__icon{
     font-size: 1.5rem;
     color: rgb(255, 255, 255);
-    margin: 0 var(--mb-2)
+    margin: 0 var(--mb-2);
+    transition: all ease .2s;
   }
-  
+  .footer__icon:hover{
+    color: rgb(179, 25, 25);
+  }
+  .footer__copy a{
+    text-decoration: none;
+    color: #fff;
+    transition: all ease .2s;
+  }
+  .footer__copy a:hover{
+    color: rgb(179, 25, 25);
+  }
+
+
   /* ===== MEDIA QUERIES=====*/
   @media screen and (min-width: 768px){
     body{
