@@ -6,5 +6,5 @@ Página Web de Recetas de Comida
  <br><br>
  Key Technologies used: HTML5 - CSS3 - JavaScript - JQuery
 
-https://ignacioprados.github.io/cocinaconmigo
+https://cocinaconmigo.vercel.app
 
